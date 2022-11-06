@@ -1,0 +1,19 @@
+  const [data, setData] = useState([])
+  const baseURL = "https://restcountries.com/v2/all";
+  const search = "https://restcountries.com/v2/name/";
+
+
+  async function getAllData() {
+    const response = await fetch(baseURL)
+    const result = await response.json()
+    setData(result)
+  }
+  console.log(data);
+  useEffect(() => {
+    getAllData();
+  },[])
+ 
+
+    { data.length > 0 ? data.map((item) => {
+          return <Card key={item.name} data={ item} />
+    }) : (<Loader/>)}

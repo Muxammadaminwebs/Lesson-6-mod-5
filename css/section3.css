@@ -1,0 +1,70 @@
+.note {
+  width: 850px !important;
+  background: linear-gradient(263.88deg, #6BFF9D 1.59%, rgba(35, 147, 73, 0.84) 98.92%);
+  border-radius: 30px;
+  padding: 0px;
+}
+.note h2 {
+  color: white;
+  padding: 30px 0px 0px 20px;
+  font-size: 39px;
+  font-weight: 700;
+}
+.note p {
+  color: white;
+  padding: 20px 0px 0px 20px;
+}
+.note a {
+  color: white;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.freed {
+  background: #DAF9E8;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards1 {
+  border-radius: 30px;
+  background: #E5ECFF;
+  width: 430px;
+  padding: 20px;
+  color: black;
+}
+.cards1 p {
+  padding: 30px 0px 60px 0px;
+}
+
+.cards2 {
+  border-radius: 30px;
+  background: #23262B;
+  width: 430px;
+  padding: 20px;
+  color: white;
+}
+.cards2 p {
+  padding: 30px 0px 60px 0px;
+}
+
+.cards3 {
+  border-radius: 30px;
+  background: #FEF5E2;
+  width: 430px;
+  padding: 20px;
+}
+.cards3 p {
+  padding: 30px 0px 60px 0px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}/*# sourceMappingURL=section3.css.map */

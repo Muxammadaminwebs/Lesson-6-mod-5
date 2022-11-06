@@ -1,0 +1,6 @@
+.Section3CardWrapper{
+    width: 1340px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

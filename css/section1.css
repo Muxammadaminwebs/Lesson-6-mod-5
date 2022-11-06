@@ -1,0 +1,16 @@
+.section1WrapperTexts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.section1 {
+  margin: 90px auto;
+}
+
+.section1ImgsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=section1.css.map */

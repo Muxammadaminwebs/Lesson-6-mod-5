@@ -1,0 +1,8 @@
+main{
+    min-height: calc(100vh - 50px - 50px);
+}
+.card-w{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(300px  , 1fr));
+    gap: 10px;
+}
